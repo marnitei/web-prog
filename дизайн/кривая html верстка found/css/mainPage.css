@@ -1,0 +1,63 @@
+body {
+    height: 1020px;
+}
+
+#thead {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background-color: #363635;
+}
+
+.bhead {
+    position: static, relative;
+    height: 3%;
+    background-color: #189ed5; 
+}
+
+.title-bar-right {
+    position: relative;
+    font-family: "Arial";
+    text-decoration-color: #363635;
+    font-size: 14px;
+    margin-top: 4px;   
+}
+
+#logo {
+    position: static;
+    height: 130%;
+    width: 8%;
+}
+
+#header {
+    position: relative;
+    height: 30%;
+    font-family: "Arial";
+    text-decoration-color: #363635;
+}
+
+#actual-head {
+    position: relative;
+    height: 10%;
+    background-color: #a5cfe0;
+}
+
+.actual-new {
+    position: relative;
+}
+
+.img {
+    position: relative;
+}
+
+#userLogin, #userPassword {
+    max-height: 5px;
+}
+
+#iform {
+    position: fixed;
+    display: inline;
+    margin-top: -6%;    
+}
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TickTick </title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="css/foundation.css" type="text/css" rel="stylesheet"/>
+    <link href="css/base.css" type="text/css" rel="stylesheet" />
+    
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="small-2 medium-2 medium-offset-1 columns">
+                <div class="main-logo">
+                    <a href="mainPage.html" id="main-link"></a>
+                </div>
+            </div>
+            <div class="small-7 small-offset-3 medium-4 medium-offset-4 columns">
+                <form method="post" class="login-form">
+                    <div class="login-form-row">
+                            <input type="text" name="_username" id="username" />
+                            <label for="username">Логин</label>
+                    </div>
+                    <div class="login-form-row">
+                            <input type="password" name="_password" id="password" />
+                            <label for="password">Пароль</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+   <div class="row">
+        <div class="small-4 medium-3 medium-offset-1 columns content">
+            <div class="news-header">
+                <span>Новости</span>
+                
+            </div>
+            <div class="news-list">
+                1. dsfbaklas <br>
+                2. dasmlkfas <br>
+                3. askjfadfag <br>
+                4. lkeqfql fka;falfa; <br>
+                5. fasf;sjfh <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="small-8 medium-7 columns content">
+            <div id="myCarousel" class="orbit-slide" data-orbit>
+               
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="entity-header medium-10 medium-offset-1 columns content">
+            <div class="small-2 medium-2 large-2 columns content">
+                <span>Мероприятия</span>
+            </div>
+            <div class="small-7 small-offset-2 medium-9 medium-offset-2 large-12 large-offset-3 columns content">
+                <div class="entity-group-by">
+                    <div class="item-menu"><a href="#">Кино</a></div>
+                    <div class="item-menu"><a href="#">Спектакли</a></div>
+                    <div class="item-menu"><a href="#">Концерты</a></div>
+                    <div class="item-menu"><a href="#">Спорт</a></div>
+                    <div class="item-menu"><a href="#">Вечеринки</a></div>
+                    <div class="item-menu"><a href="#">Детям</a></div>
+                    <div class="item-menu"><a href="#">Другое</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="events medium-10 medium-offset-1 large-8 large-offset-2 columns">
+            <div>
+                <img class="poster" alt="jag" src="img/aliceinwonderland.jpg">
+            </div>
+            <div>
+                <img class="poster" alt="jag" src="img/antman.jpg">
+            </div>
+            <div>
+                <img class="poster" alt="jag" src="img/batman.jpg">
+            </div>
+            <div>
+                <img class="poster" alt="jag" src="img/i.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="more medium-10 medium-offset-1 columns">
+            <a href="events.html">Ещё...</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="entity-header medium-10 medium-offset-1 columns content">
+            <div class="small-3 medium-3 large-3 columns content">
+                <span>Места проведения</span>
+            </div>
+            <div class="small-9 medium-8 medium-offset-1 large-7 large-offset-2 content">
+                <div class="entity-group-by">
+                    <div class="item-menu"><a href="#">Кинотеатры</a></div>
+                    <div class="item-menu"><a href="#">Театры</a></div>
+                    <div class="item-menu"><a href="#">Спорт</a></div>
+                    <div class="item-menu"><a href="#">Концерты</a></div>
+                    <div class="item-menu"><a href="#">Клубы</a></div>
+                    <div class="item-menu"><a href="#">Другое</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-10 medium-offset-1 columns content news-header ">
+            <div class="small-4 medium-3 large-3 columns content">
+                <span>Введите город</span>
+            </div>
+            <div class="small-7 small-offset-1 medium-8 medium-offset-1 large-7 large-offset-2 columns content">
+                <div class="city-search">
+                    <input type="text">
+                    <button id="but" type="submit">Найти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-10 medium-offset-1 columns content">
+            <table class="table places-table">
+                <thead class="table-head">
+                    <th></th>
+                    <th>Название</th>
+                    <th>Тип</th>
+                    <th>Описание</th>
+                    <th>Адрес</th>
+                </thead>
+                <tbody>
+                   <th></th><th>Дом кино</th> <th>Кинотеарт</th><th>жываотжвфф</th><th>вдыво 2 3</th>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="more medium-10 medium-offset-1">
+            <a href="places.html">Ещё...</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="small-10 small-offset-1 medium-8 medium-offset-2 large-6 large-offset-3">
+                <div class="footer-links">
+                    <div class="footer-item"><a href="#">Помощь и <br>вопросы</a></div>
+                    <div class="footer-item"><a href="{{ path('feedback') }}">Обратная <br>связь</a></div>
+                    <div class="footer-item"><a href="#">Рекламодателям и <br>организаторам</a></div>
+                    <div class="footer-item"><a href="#">Контакты</a></div>
+                    <div class="footer-item"><a href="#">О сайте</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
